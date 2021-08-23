@@ -1,1 +1,1 @@
-web: python bb.py
+web: python bb:app
