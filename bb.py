@@ -81,7 +81,7 @@ def live_scores():
 while True:
     dt_now = datetime.datetime.now()
     hh = dt_now.hour
-    print(hh)
+    print("changed")
     if int(hh) > 12:
         live_scores()
     if hh == "23":
