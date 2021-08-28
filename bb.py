@@ -97,4 +97,5 @@ while True:
             "日本ハム":False,
             "ロッテ":False,
             "西武":False}
+        break
     time.sleep(60)
