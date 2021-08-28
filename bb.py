@@ -98,4 +98,5 @@ while True:
             "ロッテ":False,
             "西武":False}
         break
+        print("11pm")
     time.sleep(60)
