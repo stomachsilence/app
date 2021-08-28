@@ -81,10 +81,10 @@ def live_scores():
 while True:
     dt_now = datetime.datetime.now()
     hh = dt_now.hour
-    print("changed")
+    print(hh)
     if int(hh) > 12:
         live_scores()
-    if hh == "23":
+    if int(hh) > 22:
         twd = {"阪神":False,
             "巨人":False,
             "ヤクルト":False,
@@ -98,5 +98,4 @@ while True:
             "ロッテ":False,
             "西武":False}
         break
-        print("11pm")
     time.sleep(60)
