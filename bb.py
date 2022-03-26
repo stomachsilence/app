@@ -10,10 +10,10 @@ hh = dt_now.hour
 
 def tweet(text):
     # 認証に必要なキーとトークン
-    API_KEY = 'rDrE7RNmYwrFADBCWWaKwSkpn'
-    API_SECRET = '3oTJodSMJ1wmyiL7E7Lgb412mSNRDw1izU1cQ9dnUBrCmIWige'
-    ACCESS_TOKEN = '1406486692169609221-6TRkMfAoLYTxPS8oZSpZZFeNHZjxx2'
-    ACCESS_TOKEN_SECRET = 'CyfwJOAsXlNtRdf1Wgj9n4RDgyXqZrwXStq5J4vYNt5mT'
+    API_KEY = 'YneBg5M6LDULREuxMTCPbVUxz'
+    API_SECRET = 'UXd1CA4dZWoCu72EVtQKhKWok9Pcu5Qj2n1QSFcfzFuMS9PSny'
+    ACCESS_TOKEN = '1406486692169609221-pTaPOdeMq90g9TyxxN3lZJZHIzHjfO'
+    ACCESS_TOKEN_SECRET = 'KfMs8X1laH9bDd1Mw8accq8tz07kZpiKogzXoTOkc4Qdn'
 
     # APIの認証
     auth = tweepy.OAuthHandler(API_KEY, API_SECRET)
